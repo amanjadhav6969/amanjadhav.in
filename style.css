@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 50px;
+  background: #020617;
+}
+
+section {
+  padding: 40px;
+}
+
+h2 {
+  color: #38bdf8;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
